@@ -1,6 +1,14 @@
+
+import { AppBar, Toolbar, Typography } from '@mui/material';
 const Footer = () => {
     return ( 
-        <h1>This is footer</h1>
+        <AppBar position="static" color="primary">
+            <Toolbar>
+                <Typography variant="body1" color="inherit">
+                This is the footer
+                </Typography>
+            </Toolbar>
+        </AppBar>
      );
 }
  
